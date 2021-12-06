@@ -2,7 +2,7 @@ package gettingstarted;
 
 import java.util.Scanner;
 
-public class PrimeNUmber {
+public class PrimeNumber {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int t = scn.nextInt();
