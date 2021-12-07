@@ -2,15 +2,14 @@ package gettingstarted;
 
 import java.util.Scanner;
 
-public class CountDigits {
+public class ReverseNumber {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        int count = 0;
         for (int i = n; i > 0; i=n) {
-            n = n / 10;
-            count++;
+            int remainder = n % 10;
+            n = n/10;
+            System.out.println(remainder);
         }
-        System.out.println(count);
     }
 }
